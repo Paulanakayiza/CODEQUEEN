@@ -1,0 +1,10 @@
+h1:hover, p:hover, h2:hover, h3:hover, 
+h4:hover, h5:hover{background-color:red;}
+h1{color:blue;
+    background-color:white;}
+p{color:purple;
+background-color:pink;}
+h2{color:aquamarine;}
+h3{color:indigo;}
+h4{color:orange;}
+h5{color:turquoise;}
