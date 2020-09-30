@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <title>03.3 Google Fonts: Louise's Web Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Sansita+Swashed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Exo+2:ital,wght@1,500&family=Indie+Flower&family=Sansita+Swashed&display=swap" rel="stylesheet">
+ <style>
+ img {
+    height: 300px;
+    border-style:dotted;
+    border-radius:100px;
+}
+h1{font-family: 'Architects Daughter', cursive;
+    color:purple;
+    text-shadow:4px 4px 4px #aaa}
+body{font-family: 'Exo 2', sans-serif;
+    background-color:turquoise;}
+h1:hover, p:hover, h2:hover{background-color:pink;}
+body>div{ margin:auto;
+        width:50%;}</style>
+</head>
+
+<body>
+  <h1>Welcome to Louise's web site!</h1>
+  <p><img src="http://dev.robkovacs.com/louise.jpg"></p>
+  <p>Hi! My name is Louise. I am 3 years old. I am a maltipoo (half Maltese and half poodle). I live in Brooklyn, NY.</p>
+  <div><h2>Things I like:</h2>
+  <ul>
+    <li>Peanut butter</li>
+    <li>Beating up my little brother</li>
+    <li>Taking naps</li>
+    <li>Dirty laundry</li>
+    <li>Trash</li>
+    <li>Mud and/or dirt</li>
+    <li>Lettuce</li>
+    <li>Popcorn</li>
+    <li>Broccoli</li>
+    <li>Spaghetti</li>
+    <li>Blueberries</li>
+      </ul></div>
+  <div><h2>Things I do not like:</h2>
+  <ul>
+    <li>Cats</li>
+    <li>Riding in the car</li>
+    <li>Being alone</li>
+    <li>Swimming</li>
+    <li>Taking baths</li>
+    <li>Cats</li>
+      </ul></div>
+</body>
+
+</html>
