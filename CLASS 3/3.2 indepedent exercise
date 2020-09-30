@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>03.2 CSS Multiple Values Concert Poster</title>
+        <style>
+        img{border-style:dashed;
+	        width:350px;height:250px;
+            border-radius:100px;}
+        body{text-align:center;
+	        background-color:pink;}
+        h1:hover, h2:hover,p:hover{background-color:red;}</style>
+    </head>
+    <body>
+        <h1>BOBIWINE</h1>
+        <h2><em>ONE LOVE BEACH, BUSAABALA</em></h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6h8x9u3seAI0-5Mynpk_tBkvsWSaZN-yeNQ&usqp=CAU">
+        <p><a href="https://www.youtube.com/watch?v=ud-D8ti04hc">MAZZI MAWANVU BY BOBIWINE</a></p>
+    </body>
+</html>
