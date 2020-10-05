@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="login-header">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEU7WZj///8lS5Hc4OquuNAtUJMpTZLK0eAzU5Xs7/V/kLjl6PEnTJI4V5cvUZQ1VZa4wdaRn8GcqMbW2+fHzt9UbKN1iLOXo8Onsszm6vFwg7CirclDYJxqfq2Flbv5+vxIZJ4HPYsVQo21vtSjkA2SAAAC4klEQVR4nO3b207jMBRG4UxKDh3iuJAWeqCUmXn/d5w7QBSQ47CVf0dr3Vfyp7SxY6dFQURERERERERERERERERERERELoptW9V1V35XPfcgMwux6rpi9/C43zTDanX7ZYehn3usGcW+7I/7Zv0rpbW/i9iXu9MqCedSGOrweJvOcycM3dNmFM+bsCpG+1wJQ3k33udJ2BYjbi8ehfX5kgV0I6yf83xuhF3WT9CRMP8KOhG253ygC2F4yrzJuBGWwwSgB2GVf5dxIgyTgA6EdcZa1JUwvEwD6gunXkJ9YT8RKC9sH5cuLMdtWfgTht1UoLqwv1+6sJ60YHMgDPVkoLgwTnlsciH8gZ+huLDeLl1YHhYuDJOXbPLC0fP95bL+2Kqam/FN8ThGN9wfX4q+6j6kDCzaEZuIN7HsYyjC3GMeV39KBp7LuQebVXWTCnyQ/i5+XfLz/eDzCo6Y8B/i3EPNrGsShe3cI80t9dnp1uuXNHk7v+nmHmluZeK59kZ5YfZtqcJ/TucKhG/dIJQNIUL9ECLUDyFC/RAi1A+hM2Gsr/qTKNz/vf7sWyob/fHcXLVNfHP2sL3+7GuDyllG+ztNM7526UKZE1Iz4Uplu9hMuF38NZTZajQTnlT+B2wmfFY5mDITnlXOFs2Eu8UL54a9ZiW8qEyHZkKd82Er4SBzPmwllFnSmAn3KksaM+GdypLGTKjzMpGVUGbCNxPKAM2EMtOhlXC9eKHMHoaZUGfCtxIKbYcbCe9lJnwrocwehplQZg/DTLgT2dIvrISXuVnvMhLqTBZGwoPOhF9EE2EjdA0/K/mUu4tfpXOj+bTMc/x3/2ATBy7tTYVPQohQP4QI9UOIUD+ECPVDiFA/hAj1Q4hQP4QI9UOIUD+ECPVDiFA/hAj1Q4hQP4QI9UOIUD+ECPVDiFA/hAj1Q4hQP4QI9UOIUD+ECPVDiFA/hAj1Q4hQP4QI9UOIUD+ECPVD+DPC/7rCQYDn2GybAAAAAElFTkSuQmCC" alt="Facebook logo" class="logo" />
+        <h1>Log in to Twitter</h1>
+      </section>
+      <section class="login-form-section">
+        <form>
+          <div class="email-container">
+            <input
+              type="email"
+              placeholder="Phone, email, or username"
+              class="inputs"
+            />
+          </div>
+          <div>
+            <input type="password" class="inputs" placeholder="Password" />
+          </div>
+          <button class="login-button"><strong>Log in</strong></button>
+        </form>
+      </section>
+      <section class="login-footer">
+        <a href="#">Forgot password?</a> 
+        <a href="#">Sign up for Facebook</a>
+      </section>
+    </div>
+  </body>
+</html>

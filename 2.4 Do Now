@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,4 +10,17 @@
             <p><a href="https://www.facebook.com/login/">FACEBOOK</a>
         </p>
     </body>
+=======
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2.4 Do now</title>
+    </head>
+    <body>
+        <p>
+            <a href="https://www.youtube.com/watch">YOUTUBE</a></p>
+            <p><a href="https://www.facebook.com/login/">FACEBOOK</a>
+        </p>
+    </body>
+>>>>>>> e90f58459a2966d895f864ddc70ea63654f0023d
 </html>

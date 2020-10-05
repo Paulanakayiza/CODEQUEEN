@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,4 +13,20 @@
         <del>coders</del>
         <q>in ETC</q>
     </body>
+=======
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>02.2 HTML Elements: My First Website</title>
+    </head>
+    <body>
+        <h1> My First Website</h1>
+        <p> This is so fun! But i need to figure out how to make things <strong>bold</strong></p>
+        <p> Now for <em> italics</em></p>
+        <code>Queening</code>
+        <small>is for</small>
+        <del>coders</del>
+        <q>in ETC</q>
+    </body>
+>>>>>>> e90f58459a2966d895f864ddc70ea63654f0023d
 </html>

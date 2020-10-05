@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,3 +10,16 @@
         <p> This is SO FUN!</p>
     </body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2.1 DO Now</title>
+    </head>
+    <body>
+        <p> Hello Code Nation Students</p>
+        <p> Today we are learning about HTML</p>
+        <p> This is SO FUN!</p>
+    </body>
+</html>
+>>>>>>> e90f58459a2966d895f864ddc70ea63654f0023d
