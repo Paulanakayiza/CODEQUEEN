@@ -1,0 +1,80 @@
+.red {
+    color:white;
+    background-color:red;
+    border-style:solid;
+    border-color: black;
+border-radius:90rem;
+}
+
+.orange {color:orange;
+    
+}
+.blue{
+    color:white;
+    background-color:blue;
+    border-style:solid;
+    border-color: black;
+border-radius:90rem;
+}
+.green{
+    color:white;
+    background-color:green;
+    border-style:solid;
+    border-color: black;
+border-radius:90rem;
+}
+.purple{
+    color:white;
+    background-color:purple;
+    border-style:solid;
+    border-color: black;
+border-radius:90rem;}
+.aquamarine{
+    color:white;
+    background-color:aquamarine;
+    border-style:solid;
+    border-color: black;
+border-radius:90rem;
+}
+.gold{
+    color:white;
+    background-color:gold;
+    border-style:solid;
+    border-color: black;
+border-radius:90rem;}
+
+
+
+
+
+
+
+
+
+
+
+/****** DO NOT CHANGE THE STYLES BELOW THIS ******/
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    margin: 0;
+    display: block;
+    font-size: 1em;
+    padding: 0.25em;
+    font-weight: 700;
+}
+.muni li {
+    display: inline-block;
+}

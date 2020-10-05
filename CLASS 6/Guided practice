@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>04.1 Class Selectors GP</title>
+        <style>
+        .refrigerator{
+background-color:yellow;}
+.freezer{
+background-color:blue;}</style>
+    </head>
+    <body>
+        <p class="refrigerator">Milk</p>
+        <p class="freezer">Bagel Bites</p>
+        <p class="freezer">Ice cream</p>
+        <p class="refrigerator">Cheese</p>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>04.1 Assignment Classes: Chicago Transit Authority</title>
+        <style>
+        .blue {
+    color:blue;
+}
+
+.orange {
+    color:orange;
+    
+}
+.brown{
+    color:brown;
+}
+.purple{
+    color:purple;
+}
+.red{
+    color:red;
+}
+.yellow{
+    color:yellow;
+}
+.green{
+    color:green;
+}
+.pink{
+    color:pink;
+}
+.express{background-color:gold;}
+
+
+
+
+
+
+
+
+/****** DO NOT CHANGE THE STYLES BELOW THIS ******/
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    margin: 0;
+    display: block;
+    font-size: 1em;
+    padding: 0.25em;
+    font-weight: 700;
+}
+.muni li {
+    display: inline-block;
+}
+        </style>
+    </head>
+    <body>
+        <h1>Chicago L</h1>
+        <ul class="bart">
+            <li  class="blue">Blue Line</li>
+            <li class="brown">Brown Line</li>
+            <li class="green">Green Line</li>
+            <li class="orange">Orange Line </li>
+            <li class="pink">Pink Line</li>
+            <li class="purple">Purple Line</li>
+            <li class="red">Red Line</li>
+            <li class="yellow">Yellow Line</li>
+            <li class="purple express"><em>Purple line express</em></li>
+        </ul>
+    </body>
+</html>

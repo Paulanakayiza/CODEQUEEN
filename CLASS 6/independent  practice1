@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>04.1 Assignment Class Selectors: NY Subway Lines</title>
+        <link rel="stylesheet" href="./practiceonestyle.css"
+    </head>
+    <body>
+        <h1>New York Subway Lines</h1>
+    <ul>
+        <li class="red">1</li>
+        <li class="red">2</li>
+        <li class="red">3</li>
+        <li class="green">4</li>
+        <li class="green">5</li>
+        <li class="green">6</li>
+        <li class="purple">7</li>
+        <li class="blue">A</li>
+        <li class="purple">B</li>
+        <li class="blue">C</li>
+        <li class="gold">D</li>
+        <li class="blue">E</li>
+        <li class="gold">F</li>
+        <li class="purple">G</li>
+        <li class="brown">J</li>
+        <li class="brown">L</li>
+        <li class="purple">M</li>
+        <li class="brown">N</li>
+        <li class="gold">Q</li>
+        <li class="gold">R</li>
+        <li class="purple">S</li>
+        <li class="brown">W</li>
+        <li class="gold">Z</li>
+    </ul>
+    </body>
+</html>

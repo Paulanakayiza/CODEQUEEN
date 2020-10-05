@@ -1,0 +1,76 @@
+.red {
+    color: white;
+    border-style: solid;
+    border-color:black;
+    border-radius: 100rem;
+    background-color:red;
+    
+}
+
+.green {
+    color:white;
+    border-style:solid;
+    border-color:black;
+    background-color:green;
+    border-radius:100rem;
+  
+}
+.blue{
+    color:white;
+    background-color:blue;
+    border-style: solid;
+    border-color:black;
+    border-radius:100rem;
+}
+.purple{
+    color:white;
+    background-color:purple;
+    border-style:solid;
+    border-color:black;
+    border-radius: 100rem;
+}
+.brown{
+    color:white;
+    background-color:brown;
+    border-style:solid;
+    border-color:black;
+    border-radius:100rem;
+}
+.gold{
+    color:white;
+    background-color: gold;
+    border-style:solid;
+    border-color:black;
+    border-radius:100rem;
+}
+
+
+
+
+
+
+
+
+
+
+/****** DO NOT CHANGE THE STYLES BELOW THIS ******/
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    margin: 0;
+    display: inline-block;
+    font-size: 3em;
+    padding: 0.25em;
+}
