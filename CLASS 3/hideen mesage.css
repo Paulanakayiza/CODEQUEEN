@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1:hover, p:hover, h2:hover, h3:hover, 
 h4:hover, h5:hover{background-color:red;}
 h1{color:blue;
@@ -7,4 +8,15 @@ background-color:pink;}
 h2{color:aquamarine;}
 h3{color:indigo;}
 h4{color:orange;}
+=======
+h1:hover, p:hover, h2:hover, h3:hover, 
+h4:hover, h5:hover{background-color:red;}
+h1{color:blue;
+    background-color:white;}
+p{color:purple;
+background-color:pink;}
+h2{color:aquamarine;}
+h3{color:indigo;}
+h4{color:orange;}
+>>>>>>> cafb89c8d419843b4dbbd143d9241d0315e67f62
 h5{color:turquoise;}
