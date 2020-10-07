@@ -1,0 +1,36 @@
+.sample1{
+    display:flex;
+        justify-content:center;
+        border:10px double gold;
+        padding:5px;
+        margin:5px;
+        color:white;
+        background-color:grey;
+        
+    }
+    .sample2{
+    display:flex;
+        justify-content:space-between;
+        border:5px solid grey;
+        padding:5px;
+        margin:5px;
+        color:red;
+        background-color:white;
+        
+    }
+    .sample3{
+    display:flex;
+        justify-content:flex-end;
+        padding:5px;
+        margin:5px;
+        color:turquoise;
+        
+        }
+    .item{
+        border:solid black 1px;
+        padding:5px;
+        margin-right:7px;
+        background-color:black;
+        
+    }
+    
