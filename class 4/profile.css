@@ -1,0 +1,29 @@
+.container {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Piazzolla', serif;
+    background-color:rgb(240, 232, 232);
+  }
+  .header{
+      padding-top:3px;
+      padding-bottom:3px;
+      border-bottom: solid rgb(240, 232, 232);
+      margin:10px;
+      
+  }
+  .main-content{
+    padding-top:3px;
+    padding-bottom:3px; 
+  }
+  .polita> img{
+      width:90px;
+      height:50px;
+      border-radius:20px;
+  }
+  .picture> img{
+    width: 40px;
+  }
+
+

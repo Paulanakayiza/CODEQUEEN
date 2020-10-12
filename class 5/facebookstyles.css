@@ -1,0 +1,62 @@
+.container {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+.head{
+    color:white;
+    border-style: solid rgb(189, 182, 182);
+    background-color:rgb(15, 211, 15);
+}
+.login-button{
+color: white;
+background-color:rgb(55, 55, 163);
+border: solid rgb(189, 182, 182);
+width: 310px;
+height:30px;
+}
+.inputs{
+    color:grey;
+    border:solid rgb(189, 182, 182);
+    margin-bottom: 10px;
+    width:300px;
+    height:30px;
+    
+}
+.container{
+    text-align: center;
+    margin: 0% auto;
+}
+.login-header{
+    background-color: rgb(55, 55, 163);
+    color:white;
+    height:70px;
+    margin-left:0;
+}
+.mini-header{
+    color:rgb(54, 54, 136);
+    background-color: rgb(238, 238, 192);
+    height: 50px;
+    border-top: solid rgb(243, 243, 129);
+    border-bottom: solid rgb(243, 243, 129);
+}
+img{
+    width:40px;
+}
+.end{
+    color:white;
+    background-color: rgb(37, 37, 37);
+}
+.login-footer{
+    color:grey;
+    background-color: rgb(37, 37, 37);
+    text-decoration-line: none;
+}
+.login-form-section{
+    background-color: rgb(245, 241, 241);
+}
+.content{
+    color:rgb(27, 27, 70);
+    text-decoration-line: none;
+}

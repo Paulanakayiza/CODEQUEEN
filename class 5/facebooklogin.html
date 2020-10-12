@@ -2,33 +2,48 @@
 <html lang="en">
   <head>
     <title>Facebook Login</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="facebookstyles.css" />
   </head>
   <body>
     <div class="container">
       <section class="login-header">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEU7WZj///8lS5Hc4OquuNAtUJMpTZLK0eAzU5Xs7/V/kLjl6PEnTJI4V5cvUZQ1VZa4wdaRn8GcqMbW2+fHzt9UbKN1iLOXo8Onsszm6vFwg7CirclDYJxqfq2Flbv5+vxIZJ4HPYsVQo21vtSjkA2SAAAC4klEQVR4nO3b207jMBRG4UxKDh3iuJAWeqCUmXn/d5w7QBSQ47CVf0dr3Vfyp7SxY6dFQURERERERERERERERERERERELoptW9V1V35XPfcgMwux6rpi9/C43zTDanX7ZYehn3usGcW+7I/7Zv0rpbW/i9iXu9MqCedSGOrweJvOcycM3dNmFM+bsCpG+1wJQ3k33udJ2BYjbi8ehfX5kgV0I6yf83xuhF3WT9CRMP8KOhG253ygC2F4yrzJuBGWwwSgB2GVf5dxIgyTgA6EdcZa1JUwvEwD6gunXkJ9YT8RKC9sH5cuLMdtWfgTht1UoLqwv1+6sJ60YHMgDPVkoLgwTnlsciH8gZ+huLDeLl1YHhYuDJOXbPLC0fP95bL+2Kqam/FN8ThGN9wfX4q+6j6kDCzaEZuIN7HsYyjC3GMeV39KBp7LuQebVXWTCnyQ/i5+XfLz/eDzCo6Y8B/i3EPNrGsShe3cI80t9dnp1uuXNHk7v+nmHmluZeK59kZ5YfZtqcJ/TucKhG/dIJQNIUL9ECLUDyFC/RAi1A+hM2Gsr/qTKNz/vf7sWyob/fHcXLVNfHP2sL3+7GuDyllG+ztNM7526UKZE1Iz4Uplu9hMuF38NZTZajQTnlT+B2wmfFY5mDITnlXOFs2Eu8UL54a9ZiW8qEyHZkKd82Er4SBzPmwllFnSmAn3KksaM+GdypLGTKjzMpGVUGbCNxPKAM2EMtOhlXC9eKHMHoaZUGfCtxIKbYcbCe9lJnwrocwehplQZg/DTLgT2dIvrISXuVnvMhLqTBZGwoPOhF9EE2EjdA0/K/mUu4tfpXOj+bTMc/x3/2ATBy7tTYVPQohQP4QI9UOIUD+ECPVDiFA/hAj1Q4hQP4QI9UOIUD+ECPVDiFA/hAj1Q4hQP4QI9UOIUD+ECPVDiFA/hAj1Q4hQP4QI9UOIUD+ECPVDiFA/hAj1Q4hQP4QI9UOIUD+ECPVD+DPC/7rCQYDn2GybAAAAAElFTkSuQmCC" alt="Facebook logo" class="logo" />
-        <h1>Log in to Twitter</h1>
+        <p><h1>facebook</h1>
+          <button class="head">Create Account</button></p>
+      </section>
+      <section class="mini-header">
+        <a href="#"><img src="data:image/png;base64,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">Get Facebook for Android and browse faster</a>
       </section>
       <section class="login-form-section">
         <form>
           <div class="email-container">
             <input
               type="email"
-              placeholder="Phone, email, or username"
+              placeholder="Phone number or email"
               class="inputs"
             />
           </div>
           <div>
             <input type="password" class="inputs" placeholder="Password" />
           </div>
-          <button class="login-button"><strong>Log in</strong></button>
+          <button class="login-button">Log in</button>
+          <p>or</p>
+          <button class="head">Create New Account</button>
+          <section class="content">
+            <p><a href="#">Forgot password?</a></p>
+          </section>
         </form>
       </section>
       <section class="login-footer">
-        <a href="#">Forgot password?</a> 
-        <a href="#">Sign up for Facebook</a>
-      </section>
+        <a href="#">English(US)</a> 
+        <a href="#">Espanol</a>
+        <a href="#">Deutsch</a>
+        <a href="#">Portugues(Brasil)</a>
+        <a href="#">Turkce</a>
+        <a href="#"><i class="far fa-plus-square"></i></a>
+        <section class="end">
+          <p>Facebook Inc</p>
+        </section>
+        </section>
     </div>
   </body>
 </html>
