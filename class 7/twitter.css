@@ -1,22 +1,43 @@
-.container1{
-text-align:center;
-display:flex-end;
+.split{
+    height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
 
+}
+
+
+.container1{
+right:0;
+text-align: center;
+}
+.container2{
+    left:0;
+    text-align:center;
+    background-image:URL("./twitter bird.png");
+    background-color:rgb(135, 135, 235);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 .bird{
 color:rgb(106, 106, 250);
 padding-bottom: 10px;
 }
 .inputs{
-    width:300px;
-    height:50px;
+    width:200px;
+    height:30px;
     border-bottom: 5px solid rgb(211, 207, 207);
     border-top:none;
     border-left:none;
     border-right:none;
-    padding-right:10px;
-    background-color:rgb(228, 227, 227);
-
+    padding-right: 30px;
+    background-color:rgb(237, 237, 245);
+    margin-top: 20px;
+    margin-right: 10px;
+    
 }
 img{
     width:30px;
@@ -24,9 +45,12 @@ img{
 .sign-up{
 background-color:rgb(106, 106, 250);
 color:white;
+border:none;
 border-radius:10px;
 width:300px;
 height:30px;
+margin-bottom: 5px;
+
 }
 .log-in{
 border: 2px solid rgb(106, 106, 250);
@@ -35,19 +59,33 @@ color: rgb(106, 106, 250);
 background-color:white;
 width: 300px;
 height:30px;
-}
-.container2{
-display:flex-start;
-text-align:center;
-background-image:URL("twitter bird.png");
+text-decoration-line: none;
 }
 
-p{
-    text-decoration-line: none;
-}
 .twitterbird{
     width:30px;
-}
+    }
 h1{
     padding-bottom: 10px;
+}
+.twit{
+        color:white;
+    }
+.container3{
+    width:300px;
+    padding-top: 5rem;
+    text-align: left;
+    padding-left: 5rem;
+}
+.end{
+    padding-top: 15rem;
+}
+.twit, .password{
+    text-decoration-line: none;
+}
+.password{
+    padding-left:8rem;
+}
+body{
+    font-family: 'Fira Sans', sans-serif
 }
