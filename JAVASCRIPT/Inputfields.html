@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>07.3 Input Independent Practice </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style>
+            
+
+button{
+    margin-top:10px;
+}
+
+
+/* **Do not touch the code below** */
+
+body {
+    text-align: center;
+    justify-content: space-between;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    position: center;
+}
+
+input {
+    margin: 15px;
+    padding: 5px;
+    width: 200px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+        </style>
+    </head>
+    <body>
+        <h3> Vote for your Favorite Food </h3>
+        <img src="https://www.flavcity.com/wp-content/uploads/2019/03/date-brownies-2.jpg" style="display:none;">
+        <div class="collectVote">
+			<input class="name" placeholder="name of food" maxlength="6">
+            
+            <button class="food">Submit</button>
+        </div>
+        <div class="vote-result"></div>
+        
+        <div class="collectVote">
+            <input class="snack" placeholder="favorite snack and dessert" maxlength="6">
+            <button class="snack">ADD</button>
+        </div>
+        <div class="results"></div>
+        
+    </body>
+</html>
+<script>
+    
+$(".food").click(function() {
+    let foodName= $(".name").val();
+    console.log(foodName);
+  $(".vote-result") .text(foodName);
+   
+});
+
+$(".snack").click(function() {
+    let snackName= $(".snackFood").val();
+      $(".results") .text(snackName);
+   alert("Thank you for voting!");
+});
+</script>
