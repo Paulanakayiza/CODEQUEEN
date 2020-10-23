@@ -17,8 +17,8 @@ text-align: center;
 .container2{
     left:0;
     text-align:center;
+    background-color:rgb(106, 106, 250);
     background-image:URL("./twitter bird.png");
-    background-color:rgb(135, 135, 235);
     background-repeat: no-repeat;
     background-size:cover;
 }
