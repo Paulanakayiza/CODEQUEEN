@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My To Do List</title>
+        <style>
+            body {
+    font-family: helvetica;    
+    background: url("https://countrynavigator.com/wp-content/uploads/iStock-494617082.jpg") no-repeat ;
+    background-size: cover;
+    color: white;
+}
+
+span {
+    margin-left: 5px;    
+}
+
+button {
+    background-color: #A87DD6;   
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+h2 {
+    color: #A87DD6; 
+    text-align: center;
+}
+
+        </style>
+    </head>
+    <body>
+    <h2> This Week's To Do List</h2>
+    
+    <h4>
+        New Task: <input class="newToDo" type="text" onfocus="this.value=''" value=" ">
+        <button class="addNew" >Add Task to List</button>
+    </h4>
+    
+    <h3>To Do: <span class="numTasks"></span></h3>
+    <ol class="ToDoList">
+    
+    </ol>
+        <button class="delete" >DELETE last item</button>
+    </body>
+</html>
+<script>
+    let tasks=[];
+
+$(".addNew").click(function() {
+    let newTask = $(".newToDo").val();
+   tasks.push(newTask); 
+   $(".ToDoList").append("<ol>" +newTask + "</ol>");
+   $(".numTasks").text(tasks.length);
+    console.log(tasks);
+});
+ $(".delete").click(function(){
+   
+   tasks.pop(".ToDoList");
+ });
+</script>
