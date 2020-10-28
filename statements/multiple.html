@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>08.2 Multiple Conditions: CodeGram</title>
+        <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style>
+                    body {
+                font-family: sans-serif;
+            }
+
+            h1 {
+            font-family: 'Satisfy', cursive;
+            
+            }
+            img {
+                max-width: 100%;
+            }
+            .imageSize{
+            margin-top:20px;
+}
+    
+
+        </style>
+    </head>
+    <body>
+        <h1>CodeGram: Choose a filter.</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Half_Dome_from_Glacier_Point%2C_Yosemite_NP_-_Diliff.jpg">
+        <p> Choose one of the following filters: Harlem, Bushwick, SOMA, or Sunset. </p>
+        <input placeholder="Filter Name">
+        <button class="applyFilter"> Apply filter </button>
+        <div>
+            <button class="reset">Reset</button>
+        </div>
+        <div>
+            <input class="imageSize" placeholder="Resize Image">
+            <button class="Resize"> Resize </button>
+                
+        </div>
+    </body>
+</html>
+
+<script>
+    let selectedFilter;
+
+$(".applyFilter").click(function() {
+    let filter = $("input").val();
+    if(filter==="Bushwick"){
+        $("img").css("filter", "contrast(50%) brightness(180%)");
+    }else if(filter==="SOMA"){
+    $("img").css("filter", "grayscale(50%) hue-rotate(10deg)");
+    }else if(filter==="Sunset"){
+    $("img").css("filter", "contrast(115%) hue-rotate(-10deg) saturate(180%)");
+    }else if(filter==="Paula"){
+    $("img").css("filter", "contrast(100%) hue-rotate(10deg) saturate(150%)");
+    }else if(filter==="Harlem"){
+    $("img").css("filter", "contrast(115%) brightness(120%)");
+    }
+    
+  // Write if-statements around the following lines.
+    // What is the condition? what should execute if the condition is met?
+    // Let's do the first example together. Below is the code block we want to execute if the user types Harlem in the input. Make sure to uncomment the jQuery code.
+
+        //  $("img").css("filter", "contrast(115%) brightness(120%)");
+
+    // Below is the code block we want to execute if the user types Bushwick in the input. 
+    
+        // $("img").css("filter", "contrast(50%) brightness(180%)");
+    
+    // Below is the code block we want to execute if the user types SOMA in the input. 
+    
+        // $("img").css("filter", "grayscale(50%) hue-rotate(10deg)");
+        
+    // Below is the code block we want to execute if the user types Sunset in the input. 
+    
+        // $("img").css("filter", "contrast(115%) hue-rotate(-10deg) saturate(180%)");
+    
+    
+});
+
+$(".reset").click(function() {
+    $("img").css("filter", "");
+});
+
+let iSize;
+$(".Resize").click(function(){
+    let newSize=$(".imageSize").val();
+    if(newSize<=20&&newSize>=1){
+       $("img").css("width", "15px");}
+                   
+     else if(newSize<=40&& newSize>=21){$("img").css("width", "35px");}
+    
+    else if(newSize<=60&& newSize>=41){$("img").css("width", "55px");}
+    
+    else if(newSize<=80&& newSize>=61){$("img").css("width", "75px");}
+    
+    else if(newSize<=100&& newSize>=81){$("img").css("width", "95px");}
+    else if(newSize<=200&& newSize>=101){$("img").css("width", "150px");}
+    else if(newSize<=300&& newSize>=201){$("img").css("width", "250px");}
+    else if(newSize<=400&& newSize>=301){$("img").css("width", "350px");}
+    else if(newSize<=500&& newSize>=401){$("img").css("width", "450px");}
+    else if(newSize<=700&& newSize>=501){$("img").css("width", "600px");}
+    else{
+        alert("Can not display, Try again");
+    }
+                             
+                             });
+
+
+
+</script>

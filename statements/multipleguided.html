@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>08.2 Multiple Conditions Guided Practice</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style>
+                        .output {
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <input class="temperature-input" placeholder="temperature">
+        <button class="temperature-button">What Should I Wear?</button>
+        <div class="output"></div>
+    </body>
+</html>
+<script>
+        $(".temperature-button").click(function() {
+            let temperature = parseInt($(".temperature-input").val());
+            
+            if(temperature <= 50 && temperature>=0) {
+                $(".output").text("Wear a winter jacket");
+            }
+        else if(temperature <= 70 && temperature>=51) {
+                $(".output").text("Wear a light jacket");
+            }
+        else if(temperature <= 80 && temperature>=71) {
+                $(".output").text("Wear a T-Shirt");
+            }
+        else if(temperature <= 90 && temperature>=81) {
+                $(".output").text("Wear shorts");
+            }
+            else{
+                $(".output").text("Get naked and stay in doors");}
+        });
+</script>
