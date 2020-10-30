@@ -45,7 +45,7 @@ h2 {
 $(".addButton").click(function() {
     let guest = $(".guestName").val();
 guests.push(guest);
-$(".guestList").append("<ul>"+guest+"</ul>");
+$(".guestList").append("<li>"+guest+"</li>");
 $(".numberOfGuests").text(guests.length);
 });
 </script>
