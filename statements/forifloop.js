@@ -110,24 +110,24 @@ const students=[
     
     ];
 for(let student of students){
-let Division= $("<div>", {class: "subDiv"});
-    $(".display").append(Division);
+let division= $("<div>", {class: "subDiv"});
+    $(".display").append(division);
     
-    let stdId= $("<p> ${student.id}</p>");
-    let stdName= $("<p> ${student.Name}</p>");
-    let stdAge= $("<p> ${student.Age}</p>");
+    let stdId= $(`<p> ${student.id}</p>`);
+    let stdName= $(`<p> ${student.Name}</p>`);
+    let stdAge= $(`<p> ${student.Age}</p>`);
     
-    $("Division").append(stdId);
-    $("Division").append(stdName);
-    $("Division").append(stdAge);
+    $("division").append(stdId);
+    $("division").append(stdName);
+    $("division").append(stdAge);
     
-    for (let subject of students.Subjects){
-       let subName = $("<p> ${Subjects.id}, ${Subjects.Name}</p>");
-       let subscore = $("<p> ${Subjects.score}</p>");
+    for (let subject of student.Subjects){
+       let subName = $(`<p> ${Subjects.id}, ${Subjects.Name}</p>`);
+       let subscore = $(`<p> ${Subjects.score}</p>`);
         
        
-        $("Division").append(subName);
-        $("Division").append(subscore);
+        $("division").append(subName);
+        $("division").append(subscore);
         }
 }
 
