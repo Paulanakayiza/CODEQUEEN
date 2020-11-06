@@ -109,27 +109,27 @@ const students=[
     },
     
     ];
-for(let student of students){
-let division= $("<div>", {class: "subDiv"});
-    $(".display").append(division);
-    
-    let stdId= $(`<p> ${student.id}</p>`);
-    let stdName= $(`<p> ${student.name}</p>`);
-    let stdAge= $(`<p> ${student.age}</p>`);
-    
-    $(division).append(stdId);
-    $(division).append(stdName);
-    $(division).append(stdAge);
-    
-    for (let subject of student.subjects){
-       let subName = $(`<p> ${subject.id}, ${subject.name}</p>`);
-       let subscore = $(`<p> ${subject.score}</p>`);
-        
-       
-        $(division).append(subName);
-        $(division).append(subscore);
+$(function(){
+    for(let student of students){
+        let division= $("<div>", {class: "subDiv"});
+            $(".display").append(division);
+                        
+            let stdName= $(`<p> ${student.id}; ${student.name}</p>`);
+            let stdAge= $(`<p> AGE: ${student.age}</p>`);
+                        
+            $(division).append(stdName);
+            $(division).append(stdAge);
+            
+            for (let subject of student.subjects){
+               let subName = $(`<p> ${subject.name}: ${subject.score}</p>`);
+                                             
+                $(division).append(subName);
+                
+            }
     }
-}
+        
+})
+
 
 
 
