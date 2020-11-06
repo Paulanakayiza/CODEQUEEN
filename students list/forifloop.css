@@ -1,13 +1,23 @@
-.display{
-    display:flex;
-    flex-flow: row wrap;
-
+body{
+    background-color: azure;
 }
-.subDiv {width: 30%;
-        margin: 12px 0 0 12px;
+
+.display{
+    /* display:flex;
+    flex-flow: row wrap;  */
+    /* max-width:4; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+        }
+.subDiv {width: 80%;
+        margin: 8px 10px 10px 8px;
         padding: 10px;
-        box-shadow: 3px 3px 14px -2px rgba(0,0,0,.3);
+        box-shadow: 10px 10px 20px -2px rgba(12, 10, 10, 0.3);
         text-align: center;
         background-color: aquamarine;
-    
-        }
+        font-family: 'Playfair Display', serif;
+        border-radius:10px;
+         }
+.subDiv:hover{
+        background-color:violet;
+}
