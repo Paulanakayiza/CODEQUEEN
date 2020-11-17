@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+}
+#mother{
+    display:flex;
+}
+#container{
+    background-color: rgb(220, 250, 175);
+    margin: 0% auto;
+    text-align: left;
+    width: 280px;
+    border: solid 2px black;
+    padding-left:10px;
+}
+#header{
+    color:white;
+    background-color:rgb(1, 29, 1);
+    border: solid 1px;
+    display: flex;
+    }
+#sub-head{
+    color:rgb(1, 29, 1);
+    text-align: center;
+}
+input{
+    width:15rem;
+    border: solid 1px rgb(1, 29, 1);
+    height: 30px;
+}
+#savebtn{
+    margin-left: 200px;
+    background-color: rgb(1, 29, 1);
+    margin-bottom:5px ;
+    width: 60px;
+    height:35px;
+}
+#savebtn > a{
+    text-decoration:none;
+    color:white;
+}
+img{
+    padding-left:60rem;
+    padding-top: 15px;
+}
