@@ -1,6 +1,6 @@
 body{
-    background-image:url(../logo/logo-background.PNG);
-    background-size: cover;
+    background-color:maroon;
+    background-image: url(../logo/logo-background-removebg-preview.png);
 }
 .header{
     display:flex;
@@ -28,7 +28,7 @@ margin-right: 40%;
 border:1px solid grey;
 text-align:center;
 padding: 20px;
-
+cursor: pointer;
 }
 .container > input{
 width: 200px;

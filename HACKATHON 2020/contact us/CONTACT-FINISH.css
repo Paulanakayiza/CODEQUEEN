@@ -1,0 +1,21 @@
+body{
+    background-color:maroon;
+    background-image: url(../logo/logo-background-removebg-preview.png);
+}
+.header{
+    display:flex;
+    background-color: orange;
+    padding: 30px;
+    margin-bottom: 90px;
+}
+.main{
+    cursor: pointer;
+}
+.main > button{
+    width:100px;
+    background-color:grey;
+}
+#homeBtn{
+    text-decoration: none;
+    background-color: grey;
+}
