@@ -1,0 +1,53 @@
+body{
+    background-color:rgb(226, 223, 223);
+}
+.header{
+    display:flex;
+    background-color: orange;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+/* #logo{
+    margin-top:20px;
+} */
+.button{
+    margin-left:1000px;
+}
+.buttons > label {
+    background-color: grey;
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+#contact{
+    text-decoration: none;
+    background-color: grey;
+}
+.container{
+    display:flex;
+    padding: 50px;
+    justify-content: center;
+}
+#upload, #delete{
+width:50px;
+background-color:grey;
+margin-bottom: 5px;
+}
+.miniHeader{
+    text-align: center;
+    padding-right: 100px;
+    padding-top:100px;
+    
+}
+#main{
+    text-align: center;
+    padding-left: 150px;
+    border-left: 2px solid grey;
+}
+#nextBtn, #backBtn{
+    text-decoration: none;
+    color: black;
+}

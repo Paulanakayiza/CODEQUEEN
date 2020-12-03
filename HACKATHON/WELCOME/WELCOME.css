@@ -1,0 +1,47 @@
+body{
+background-color: rgb(226, 223, 223);
+}
+.header{
+    display:flex;
+    background-color: orange;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+#name{
+    margin-left: 10px;
+}
+#logo{
+    margin-top:20px;
+}
+.header > button {
+    width:100px;
+    height:50px;
+    background-color: grey;
+    color:black;
+    margin-left: 1000px;
+    border-radius:5px;
+}
+#signIn{
+    text-decoration:none;
+    color:black;
+}
+.main{
+    text-align: center;
+}
+.main > img{
+    width:400px;
+}
+#buttons{
+    color: white;
+    display: flex;
+}
+#std, #admin, #job, #contact{
+    margin-left: 150px;
+    width:150px;
+    border-radius: 5px;
+    background-color: grey;
+}
+.words{
+    margin-left: 25%;
+    margin-right: 25%;
+}
